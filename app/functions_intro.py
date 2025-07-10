@@ -14,7 +14,7 @@ def describe_user(name, role="User", *skills, **details):
 
 describe_user("Иван", "Админ", "Python", "Django", "JS", age=25, city="Москва")
 
-count = 0  # глобальная переменная
+count = 0
 
 
 def increment():
