@@ -18,7 +18,7 @@ count = 0  # глобальная переменная
 
 
 def increment():
-    global count  # говорим, что будем менять глобальную переменную
+    global count
     count += 1
 
 
